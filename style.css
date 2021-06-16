@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p {
+    font-family: Roboto  !important;
+} 
+
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+/* navigation 
+ - show navigation always on the large screen devices with (min-width:1024)
+*/
+
+@media (min-width: 1024px) {
+  .top-navbar {
+    display: inline-flex !important;
+  }
+}
+.box .row img {
+    margin-left: 35%;
+}
+
+@media (min-width: 1024px) {
+
+    .box .row img {
+        margin-left: 0;
+    }
+
+}
+
+
+.alinear {
+  margin: auto;
+}
+
+.alinear-text {
+  text-align: center;
+}
+
+.title {
+  width: 180px;
+  display: flex;
+}
+
+.title svg {
+  flex: 0 0 10%;
+  
+}
+
+.title h2 {
+  flex: 0 0 80%;
+  
+}
